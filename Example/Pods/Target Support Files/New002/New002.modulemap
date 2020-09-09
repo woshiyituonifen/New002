@@ -1,0 +1,6 @@
+framework module New002 {
+  umbrella header "New002-umbrella.h"
+
+  export *
+  module * { export * }
+}
