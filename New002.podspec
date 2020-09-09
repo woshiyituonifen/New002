@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'New002'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of New002.'
 
 # This description is used to generate tags and improve search results.
@@ -34,8 +34,9 @@ if ENV['source']
 else
     s.source_files = 'New002/include/**'
     s.public_header_files = 'New002/include/*.h'
-    s.ios.vendored_libraries = "New002/lib#{s.name}.a"
+    s.ios.vendored_libraries = "New002/lib/*.a"
     s.static_framework = true
+end
   
   # s.resource_bundles = {
   #   'New002' => ['New002/Assets/*.png']
