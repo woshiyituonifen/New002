@@ -23,7 +23,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		6D29F9772508CC0600F23B70 /* Mao.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D29F9762508CC0600F23B70 /* Mao.m */; };
 		6D29F9792508CC3800F23B70 /* Mao.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D29F9752508CC0600F23B70 /* Mao.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D29F97B2508CC7E00F23B70 /* lib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6D29F97A2508CC7E00F23B70 /* lib */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DC2E2CF8C4237A156BDA7668 /* Pods_New002_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B2EDFF4BA9406FC3FD094A /* Pods_New002_Example.framework */; };
@@ -46,7 +45,6 @@
 			dstPath = Users/lipingkuan/Desktop/New002/New002/lib;
 			dstSubfolderSpec = 16;
 			files = (
-				6D29F97B2508CC7E00F23B70 /* lib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +78,6 @@
 		6D29F96C2508CBE600F23B70 /* libNew002binary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNew002binary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D29F9752508CC0600F23B70 /* Mao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mao.h; path = ../../New002/Classes/Mao.h; sourceTree = "<group>"; };
 		6D29F9762508CC0600F23B70 /* Mao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mao.m; path = ../../New002/Classes/Mao.m; sourceTree = "<group>"; };
-		6D29F97A2508CC7E00F23B70 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lib; path = ../New002/lib; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		717FDC701BCA77839FC7BAEC /* Pods-New002_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-New002_Tests.debug.xcconfig"; path = "Target Support Files/Pods-New002_Tests/Pods-New002_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		78B2EDFF4BA9406FC3FD094A /* Pods_New002_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_New002_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,7 +125,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				6D29F97A2508CC7E00F23B70 /* lib */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for New002 */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -263,7 +259,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				5C52F1078F3EC6CC21949435 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -374,28 +369,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5C52F1078F3EC6CC21949435 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-New002_Example/Pods-New002_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/New002/New002.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/New002.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-New002_Example/Pods-New002_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DBA24F1D33E735F624AF56C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
