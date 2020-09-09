@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'New002'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of New002.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-if ENV['source']
+if ENV['source'] 
     s.source_files = 'New002/Classes/**/*'
 else
     s.source_files = 'New002/include/**'

@@ -12,5 +12,3 @@ target 'New002_Example' do
   end
 end
 
-target 'New002' do
-  end
